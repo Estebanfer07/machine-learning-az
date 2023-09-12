@@ -1,0 +1,7 @@
+version: "3.4"
+
+services:
+  jupyter_dev:
+    image: jupyter/datascience-notebook
+    volumes:
+      - ./src:/app/src
